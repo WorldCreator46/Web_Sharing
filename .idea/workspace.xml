@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b5c287d-94be-49a2-9ed2-a46d25928979" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Path.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycloud/settings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycloud/settings/develop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycloud/settings/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cloud/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cloud/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cloud/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cloud/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/cloud/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cloud/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accountapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cloud/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycloud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycloud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycloud/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/mycloud/wsgi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/templates/cloud/index.html" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,9 +65,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WorkSpace/Portfolio/PYTHON/Web_Sharing/manage.py"
+    "last_opened_file_path": "D:/WorkSpace/Portfolio/PYTHON/Web_Sharing"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\cloud" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\accountapp" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\mycloud\settings" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\static\cloud" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\templates\cloud" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\cloud" />
+      <recent name="D:\WorkSpace\Portfolio\PYTHON\Web_Sharing\mycloud" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="FileShareStart" type="PythonConfigurationType" factoryName="Python">
       <module name="Web_Sharing" />
@@ -74,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659798404753</updated>
       <workItem from="1659798406582" duration="254000" />
-      <workItem from="1659952217445" duration="2096000" />
+      <workItem from="1659952217445" duration="2112000" />
+      <workItem from="1660040036487" duration="3271000" />
     </task>
     <servers />
   </component>
@@ -96,6 +139,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Web_Sharing$FileShareStart.coverage" NAME="FileShareStart 커버리지 결과" MODIFIED="1659955682986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Web_Sharing$FileShareStart.coverage" NAME="FileShareStart 커버리지 결과" MODIFIED="1660043222947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Web_Sharing$wsgi.coverage" NAME="wsgi 커버리지 결과" MODIFIED="1660040887772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mycloud" />
   </component>
 </project>

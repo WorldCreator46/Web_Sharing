@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1020px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+#search {
+  width: 90%;
+  height: 10%;
+  margin-left: 5%;
+}
+
+#SB {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  #SB {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1020px) {
+  #SB {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1400px) {
+  #SB {
+    font-size: 50px;
+  }
+}
+
+table {
+  margin-top: 2.5%;
+  margin-left: 5%;
+  width: 90.2%;
+  height: 100%;
+  border: 1px black solid;
+}
+
+#list th {
+  border: 1px black solid;
+}
+@media (min-width: 768px) {
+  #list th {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1020px) {
+  #list th {
+    font-size: 40px;
+  }
+}
+@media (min-width: 1400px) {
+  #list th {
+    font-size: 50px;
+  }
+}
+
+#list td {
+  border: 1px black solid;
+}
+@media (min-width: 768px) {
+  #list td {
+    font-size: 20px;
+    padding: 1px;
+  }
+}
+@media (min-width: 1020px) {
+  #list td {
+    font-size: 30px;
+    padding: 2px;
+  }
+}
+@media (min-width: 1400px) {
+  #list td {
+    font-size: 35px;
+    padding: 2px;
+  }
+}
+
+td.Volume {
+  width: 25%;
+}
+
+td.FileName {
+  width: 75%;
+}
+
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  cursor: pointer;
+}
+
+td button {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (min-width: 768px) {
+  td button {
+    font-size: 20px;
+    padding: 1px;
+  }
+}
+@media (min-width: 1020px) {
+  td button {
+    font-size: 30px;
+    padding: 2px;
+  }
+}
+@media (min-width: 1400px) {
+  td button {
+    font-size: 35px;
+    padding: 2px;
+  }
+}
+
+#header button {
+  cursor: pointer;
+  position: relative;
+  font-size: 11px;
+  bottom: 15px;
+}
+@media (min-width: 768px) {
+  #header button {
+    font-size: 13px;
+    padding: 1px;
+    bottom: 15px;
+  }
+}
+@media (min-width: 1020px) {
+  #header button {
+    font-size: 17px;
+    padding: 2px;
+    bottom: 26px;
+  }
+}
+@media (min-width: 1400px) {
+  #header button {
+    font-size: 22px;
+    padding: 2px;
+    bottom: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

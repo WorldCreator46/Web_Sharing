@@ -1,0 +1,150 @@
+// Break Point
+$moblie: 425px;
+$tablet: 768px;
+$laptop: 1020px;
+$desktop: 1400px;
+
+// Mixins
+@mixin mobile {
+    @media (min-width: #{$mobile}) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media (min-width: #{$tablet}) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media (min-width: #{$laptop}) {
+        @content;
+    }
+}
+@mixin desktop {
+    @media (min-width: #{$desktop}) {
+        @content;
+    }
+}
+
+* {
+    padding : 0;
+    margin : 0;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    @include tablet{
+        font-size: 2em;
+    }
+    @include laptop{
+        font-size: 3em;
+    }
+    @include desktop{
+        font-size: 4em;
+    }
+}
+#search {
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+}
+#SB { 
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    @include tablet{
+        font-size: 30px;
+    }
+    @include laptop{
+        font-size: 40px;
+    }
+    @include desktop{
+        font-size: 50px;
+    }
+}
+table {
+    margin-top: 2.5%;
+    margin-left: 5%;
+    width: 90.2%;
+    height: 100%;
+    border: 1px black solid;
+}
+#list th {
+    border: 1px black solid;
+    @include tablet{
+        font-size: 30px;
+    }
+    @include laptop{
+        font-size: 40px;
+    }
+    @include desktop{
+        font-size: 50px;
+    }
+}
+#list td {
+    border: 1px black solid;
+    @include tablet{
+        font-size: 20px;
+        padding: 1px;
+    }
+    @include laptop{
+        font-size: 30px;
+        padding: 2px;
+    }
+    @include desktop{
+        font-size: 35px;
+        padding: 2px;
+    }
+}
+td.Volume {
+    width: 25%;
+}
+td.FileName {
+    width: 75%;    
+}
+a {
+    text-decoration-line: none;
+    color: black;
+    cursor: pointer;
+}
+td button {
+    cursor: pointer;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    @include tablet{
+        font-size: 20px;
+        padding: 1px;
+    }
+    @include laptop{
+        font-size: 30px;
+        padding: 2px;
+    }
+    @include desktop{
+        font-size: 35px;
+        padding: 2px;
+    }
+}
+#header button {
+    cursor: pointer;
+    position: relative;
+    font-size: 11px;
+    bottom: 15px;
+    @include tablet{
+        font-size: 13px;
+        padding: 1px;
+        bottom: 15px;
+    }
+    @include laptop{
+        font-size: 17px;
+        padding: 2px;
+        bottom: 26px;
+    }
+    @include desktop{
+        font-size: 22px;
+        padding: 2px;
+        bottom: 30px;
+    }
+}
